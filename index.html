@@ -5,18 +5,17 @@
   <title>ページ移動中...</title>
 
   <!-- Twitterカード -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="こちらに移動します！">
-<meta name="twitter:description" content="このリンクをクリックすると自動で移動します">
-<!-- <meta name="twitter:image" content="https://i.imgur.com/IzLePKg.png">-->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="こちらに移動します！">
+  <meta name="twitter:description" content="このリンクをクリックすると自動で移動します">
+  <!-- <meta name="twitter:image" content="https://i.imgur.com/IzLePKg.png">-->
 
-<!-- OGPタグ -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="こちらに移動します！">
-<meta property="og:description" content="このリンクをクリックすると自動で移動します">
-<meta property="og:image" content="https://i.imgur.com/IzLePKg.png">
-<meta property="og:url" content="https://yourname.github.io/redirect-page/">
-
+  <!-- OGPタグ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="こちらに移動します！">
+  <meta property="og:description" content="このリンクをクリックすると自動で移動します">
+  <meta property="og:image" content="https://i.imgur.com/IzLePKg.png">
+  <meta property="og:url" content="https://yourname.github.io/redirect-page/">
 
   <!-- Google Analytics（GA4） -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J2HJ0WL6E"></script>
@@ -27,14 +26,12 @@
     gtag('config', 'G-3J2HJ0WL6E');
   </script>
 
-  <!-- 自動リダイレクト -->
-  <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbzNzF8xOBxmkN-Dm0D6mp6LZ4IEuvA2YqZFYj2UbX9QqclsXyE0jp_xpKjMH5LD7nn0/exec">
+  <!-- JavaScriptによる即時リダイレクト -->
+  <script>
+    location.replace("https://script.google.com/macros/s/AKfycbzNzF8xOBxmkN-Dm0D6mp6LZ4IEuvA2YqZFYj2UbX9QqclsXyE0jp_xpKjMH5LD7nn0/exec");
+  </script>
 </head>
 <body>
   <p>ページを移動中です...</p>
 </body>
 </html>
-
-
-
-
