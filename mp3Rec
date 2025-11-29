@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ページ移動中...</title>
+
+  <!-- Twitterカード -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="こちらに移動します！">
+  <meta name="twitter:description" content="このリンクをクリックすると自動で移動します">
+  <!-- <meta name="twitter:image" content="https://i.imgur.com/uUwD5uH.png">-->
+
+  <!-- OGPタグ -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="こちらに移動します！">
+  <meta property="og:description" content="このリンクをクリックすると自動で移動します">
+  <meta property="og:image" content="https://i.imgur.com/uUwD5uH.png">
+  <meta property="og:url" content="https://yourname.github.io/redirect-page/">
+
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J2HJ0WL6E"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3J2HJ0WL6E');
+  </script>
+
+  <!-- JavaScriptによる即時リダイレクト -->
+  <script>
+    location.replace("https://script.google.com/macros/s/AKfycbxB-JAMBoRMYSZLdcFwzxFHUHoTcBfeUJJiuahNyg00IXwRbh1EsQGganfgggrS0O_V/exec?page=mp3Rec");
+  </script>
+</head>
+<body>
+  <p>ページを移動中です...</p>
+</body>
+</html>
+
+
