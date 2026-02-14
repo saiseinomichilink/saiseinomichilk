@@ -2,22 +2,24 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ページ移動中...</title>
+  <title>再生の道 YOUTUBEリンクへ移動中...</title>
 
-  <!-- Twitterカード -->
+  <!-- Twitterカード設定 -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="こちらに移動します！">
-  <meta name="twitter:description" content="このリンクをクリックすると自動で移動します">
-  <!-- <meta name="twitter:image" content="https://i.imgur.com/n4mg9gg.png">-->
+  <meta name="twitter:title" content="再生の道 YOUTUBEリンク（非公式）DB版">
+  <meta name="twitter:description" content="石丸伸二氏の動画をカレンダー形式で確認できるデータベースです。クリックして移動します。">
+  <meta name="twitter:image" content="https://i.imgur.com/n4mg9gg.png">
 
-  <!-- OGPタグ -->
+  <!-- OGP設定 -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="こちらに移動します！">
-  <meta property="og:description" content="このリンクをクリックすると自動で移動します">
+  <meta property="og:title" content="再生の道 YOUTUBEリンク（非公式）DB版">
+  <meta property="og:description" content="石丸伸二氏の動画をカレンダー形式で確認できるデータベースです。クリックして移動します。">
   <meta property="og:image" content="https://i.imgur.com/n4mg9gg.png">
-  <meta property="og:url" content="https://yourname.github.io/redirect-page/">
+  
+  <!-- ★★★ ここに確認したGitHub PagesのURLを設定しました ★★★ -->
+  <meta property="og:url" content="https://saiseinomichilink.github.io/saiseinomichilk/">
 
-  <!-- Google Analytics（GA4） -->
+  <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J2HJ0WL6E"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -26,16 +28,19 @@
     gtag('config', 'G-3J2HJ0WL6E');
   </script>
 
-  <!-- JavaScriptによる即時リダイレクト -->
+  <!-- 自動転送処理 -->
   <script>
-    location.replace("https://script.google.com/macros/s/AKfycbylxnu5FG-RY3fXW2PZprrDmUZjMldVhoqSrn8DfYr9jCdzneL-BQbG53h_YyZpwbAjIw/exec");
+    // GA4の計測を確実にするため、0.5秒だけ待ってから転送します
+    setTimeout(function() {
+      window.location.replace("https://script.google.com/macros/s/AKfycbylxnu5FG-RY3fXW2PZprrDmUZjMldVhoqSrn8DfYr9jCdzneL-BQbG53h_YyZpwbAjIw/exec");
+    }, 500);
   </script>
+  
+  <!-- JavaScriptが無効な場合の保険 -->
+  <meta http-equiv="refresh" content="0;URL='https://script.google.com/macros/s/AKfycbylxnu5FG-RY3fXW2PZprrDmUZjMldVhoqSrn8DfYr9jCdzneL-BQbG53h_YyZpwbAjIw/exec'">
 </head>
-<body>
-  <p>ページを移動中です...</p>
+<body style="background-color:#f0f0f0; font-family:sans-serif; text-align:center; padding-top:50px;">
+  <p>ページを移動しています...</p>
+  <p><small>もし自動で移動しない場合は<a href="https://script.google.com/macros/s/AKfycbylxnu5FG-RY3fXW2PZprrDmUZjMldVhoqSrn8DfYr9jCdzneL-BQbG53h_YyZpwbAjIw/exec">こちらをクリック</a>してください。</small></p>
 </body>
 </html>
-
-
-
-
